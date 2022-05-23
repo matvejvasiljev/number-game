@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <h1 id="title">Угадай число (от одного до десяти)</h1>
+        <h2 id="healthMeter">Жизни: </h2>
+        <input type="number" id="numberInput">
+        <button id="checkButton">проверить</button>
+        <button id="resetButton" type="button">новая игра</button>
+        <!-- type="button" чтобы не обновлялась страница -->
+        <!-- <button id="checkButton" type="button">проверить</button> -->
+        <p id="hintDisplay">Вводи число и нажимай проверить</p>
+        <button class="modeButton activeButton" id="easyMode" type="button">Легкий</button>
+        <button class="modeButton" id="normalMode" type="button">Средний</button>
+        <button class="modeButton" id="hardMode" type="button">Сложный</button>
+    </form>
+    <h2 id="winText">Ты выиграл!</h2>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- доделать hardButton, повторить -->
