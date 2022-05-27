@@ -182,7 +182,7 @@ checkButton.onclick = function (event) {
    if (health < 1) {
       console.log("Ты проиграл!");
       winText.style.transform = "translate(-50%, -50%) scale(1)"
-      winText.innerHTML = "Ты Проиграл!"
+      winText.innerHTML = "Ты Проиграл! Секретное число было " + secretNumber
       hintDisplay.innerHTML = "ㅤ"
       checkButton.disabled = true
    }
